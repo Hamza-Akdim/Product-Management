@@ -1,0 +1,107 @@
+.navbar {
+    padding: 0px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.ShopSmartCity {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-size: medium;
+    font-weight: 600;
+    margin-left: auto; 
+    margin-right: 40px;
+}
+
+.user-icon {
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+#iconOfSmartShopCity {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.add-product-bar{
+    background-color:#eee;
+    margin: 90px 0px 0px 60px;
+    padding: 10px 20px 10px 20px;
+    font-size: larger;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.add-product {
+    margin-top: 80px;
+    width: 30vw;
+    background-color: #eee;
+    border-radius: 12px;
+    box-shadow : 20px 20px 30px rgba(49, 49, 49, 0.5);
+}
+
+.add-product-form {
+    display: none;
+}
+
+#title-add-new-product {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.add-product-btn {
+    margin-bottom: 15px;
+}
+
+.row {
+    width: 25vw;
+}
+
+.image-label {
+    font-size: small;
+    color: rgb(74, 74, 74);
+}
+
+#add-product-btn {
+    font-size: larger;
+}
+
+[data-add-product-btn] {
+    font-size: large;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.table {
+    width: 90vw;
+    margin-left: 60px;
+}
+
+.edit-delete-btn {
+    margin: 15px 1px 10px 1px;
+}
+
+
+
+
+
+
+
